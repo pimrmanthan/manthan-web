@@ -272,7 +272,7 @@
                     </div><!-- content-right -->
                   </div><!-- content-right bg -->
                 </div>
-                    <p>HURRY UP FOR REGISTRATIONS</p>
+                    <div>HURRY UP FOR REGISTRATIONS</div>
                 
             </div>
             <!-- content-right -->
@@ -323,40 +323,10 @@
         <input type="City" placeholder="City"/>
         <div class="input-icon"><i class=""></i></div>
       </div>
-     <iframe src="https://www.townscript.com/ow/sakshi-410410" frameborder="0" height="400" width="80%"></iframe>
+     <iframe src="https://www.townscript.com/ow/sakshi-410410"  frameborder="5" height="500" width="100%"></iframe>
     <div class="row1">
-      <h4>Payment Details</h4>
-      <br>
-      <div class="input-group">
-        <input type="radio" name="payment-method" value="card" id="payment-method-card" checked="true"/>
-        <label for="payment-method-card"><span><i class="fa fa-cc-visa"></i>Credit Card</span></label>
-        <input type="radio" name="payment-method" value="paypal" id="payment-method-paypal"/>
-        <label for="payment-method-paypal"> <span><i class="fa fa-cc-paypal"></i>Paypal</span></label>
-      </div>
-      <div class="input-group input-group-icon">
-        <input type="text" placeholder="Card Number"/>
-        <div class="input-icon"><i class="fa fa-credit-card"></i></div>
-      </div>
-      <div class="col-half">
-        <div class="input-group input-group-icon">
-          <input type="text" placeholder="Card CVC"/>
-          <div class="input-icon"><i class="fa fa-user"></i></div>
-        </div>
-      </div>
-      <div class="col-half">
-        <div class="input-group">
-          <select>
-            <option>01 Jan</option>
-            <option>02 Jan</option>
-          </select>
-          <select>
-            <option>2015</option>
-            <option>2016</option>
-          </select>
-        </div>
-      </div>
-    </div>
-    <div class="row1">
+          <div class="row1">
+       <br></br>
       <h4>Terms and Conditions</h4>
       <br>
       <div class="input-group">
@@ -365,6 +335,16 @@
       </div>
     </div>
   </form>
+<script type="text/javascript">
+function Confirm(form){
+alert("Record insert successfully!"); 
+form.submit();
+}
+</script>
+
+<form name="form" method="post" action="">
+<input type="button" name="Register now " value="Register Now" onClick="Confirm(this.form)">
+</form> 
 
 
 </div>
