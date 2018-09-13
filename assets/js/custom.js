@@ -93,12 +93,12 @@
 
       
     $('#countdown').countdown({
-      date: '02/27/2018 17:00:00',
-      offset: +2,
+      date: '10/22/2018 09:00:00',
+      offset: +5,
       day: 'Day',
       days: 'Days'
     }, function () {
-      //alert('Done!');
+      alert('Manthan has been started!!');
     });
 
 
