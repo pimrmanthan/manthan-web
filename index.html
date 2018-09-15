@@ -160,24 +160,7 @@
               </ul>
               <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown active">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expanded="false">Home<span class="caret"></span></a>
-                  <ul class="dropdown-menu scrollbar" id="style-scroll">
-                    <li><a href="index.html"></a></li>
-                    <li><a href="index-2.html">Homepage Style Two</a></li>
-                    <li><a href="index-3.html">Homepage Style Three</a></li>
-                    <li><a href="index-4.html">Homepage Style Four</a></li>
-                    <li><a href="index-5.html">Homepage Style Five</a></li>
-                    <li><a href="index-6.html">Homepage Style Six</a></li>
-                    <li><a href="index-7.html">Homepage Style Seven</a></li>
-                    <li><a href="index-8.html">Homepage Style Eight</a></li>
-                    <li class="active"><a href="index-dark.html">Dark Homepage</a></li>
-                    <li><a href="index-reunion.html">Reunion</a></li>
-                    <li><a href="index-newyear.html">Newyear</a></li>
-                    <li><a href="onepage.html">One Page</a></li>
-                    <li><a href="box-layout.html">Home Box Layout</a></li>
-                    <li><a href="index-fashion.html">Fashion</a></li>
-                    <li><a href="http://demos.codexcoder.com/labartisan/html/BigEvent-rtl/"> الصفحة الرئيسية رتل</a></li>
-                  </ul>
+                  <a onclick="topFunction()" role="button" aria-expanded="false">Home</a>
                 </li>
                 <li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expanded="false">About<span class="caret"></span></a>
@@ -665,7 +648,14 @@
 
     </script>
 
-
+    <script>
+    function topFunction() {
+    		$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+	}
+	</script>
 
   </body>
 </html>
