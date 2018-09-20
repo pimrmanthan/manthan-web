@@ -154,7 +154,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <!--a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" class="img-responsive"></a-->
+              <a class="navbar-brand" onclick="topFunction()">
+                <img src="images/logo.png" alt="logo" height="115" width="115" class="img-responsive">
+              </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -327,6 +329,15 @@
     <!-- Material box layout -->
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 	<script src="assets/js/index.js"></script>
+
+  <script>
+    function topFunction() {
+        $('body,html').animate({
+        scrollTop: 0
+      }, 800);
+      return false;
+    }
+  </script>
 
 </body>
 
